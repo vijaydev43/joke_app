@@ -19,7 +19,6 @@ class _homeState extends State<home> {
     'Christmas'
   ];
 
-
   String programm =
       "https://v2.jokeapi.dev/joke/Programming?type=twopart&amount=10";
   String mall =
@@ -71,7 +70,7 @@ class _homeState extends State<home> {
                     Row(
                       children: [
                         Text(
-                          'Select Your ',
+                          'Select Your.',
                           style: TextStyle(
                             fontFamily: 'First Font',
                             color: Colors.white,
